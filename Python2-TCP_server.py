@@ -42,14 +42,6 @@ def openKontrol():
         print '\nAUTO-Pilot is already opened.\n'
     return cv
 
-def tumble():
-    PWmotor.PwSix() # pwmotorda zaten 1 var
-   # time.sleep(0.5)
-    Servomotor.ServoDown()
-    time.sleep(0.3) # 0.5 de servoda var
-    Servomotor.ServoUp()
-    time.sleep(0.5) # 0.5 de servoda var
-
 #---------------------------------------------------------------#
 HOST = ''
 PORT = 21567
